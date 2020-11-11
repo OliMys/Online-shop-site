@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>earrings</title>
+  <link rel="stylesheet" href="jshop_style.css">
+  <script defer src="jshop_script.js"></script>
+</head>
+<body>
+<body>
+  <header>
+    <div class="main_title"><p>JEWELRY</p></div>
+  </header>
+  <nav class="navigate">
+      <div id="catalogElem" class="catalogElem">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">Кольца</a>
+        <a href="main_shop_index.html">Серьги</a>
+        <a href="#">Браслеты</a>
+        <a href="#">Коллекции</a>  
+      </div>
+      <div id="catalog" class="catalog">
+        <span onclick="openNav()">Каталог</span>
+      </div>
+    <div class="rightNav">
+      <a href="">программа лояльности</a>
+      <a href="">доставка и оплата</a>
+      <a href="">избранное</a>
+      <div class="cart">
+      <p id="checkout" class="checkout">корзина</p>
+      <div class="openCartElem" id="openCartElem"><span class="closeCart" id="closeCart">&times;</span><div id="cart_content" class="cart-content"></div></div>
+      
+      </div>
+      </div>
+  </nav>
+<div class="column">
+    
+      <div class="images">
+        <div class="sidebar" id="sidebar">
+          <div class="small-preview">
+            <a href="https://i.ibb.co/mBy6Xrh/44787259-2372214199517185-4009247882283581440-o.jpg"><img src="https://i.ibb.co/0X9hFpY/44787259-2372214199517185-4009247882283581440-o.jpg" alt="44787259-2372214199517185-4009247882283581440-o" width="145px" height="145px" border="0"></a>
+          </div>
+          <div class="small-preview">
+            <a href="https://i.ibb.co/ws5gVN0/44929420-2372214039517201-1761391351087235072-o.jpg"><img src="https://i.ibb.co/TL926Bv/44929420-2372214039517201-1761391351087235072-o.jpg" alt="44929420-2372214039517201-1761391351087235072-o" width="145px" height="145px" border="0"></a>
+          </div>
+          <div class="small-preview">
+            <a href="https://i.ibb.co/Zg374Ty/44194773-2352544404817498-4989244726424109056-o.jpg"><img src="https://i.ibb.co/2MwHVKX/44194773-2352544404817498-4989244726424109056-o.jpg" alt="44194773-2352544404817498-4989244726424109056-o" width="145px" height="145px" border="0"></a>
+          </div>
+        </div>
+        <div class="largeImg">
+          <img id="largeImg" src="https://i.ibb.co/mBy6Xrh/44787259-2372214199517185-4009247882283581440-o.jpg" alt="Large image" width='430px' height='520px' border="0">
+        </div>
+        <div id="modal" class="modal">
+          <span class="closeModal" id="closeModal">&times;</span>
+          <img class="modal-content" id="modalImg">
+        </div>  
+      </div>
+  
+      <div class="description">
+        <p class="item-title" id="itemTitle" itemId="2">Серьги KINDNESS </p>
+        <p class="item-price">6500.00 руб</p>
+        <div id="cart" class="cartContainer">
+          <form id="amount" class="amount">
+            <span id="minus">&minus;</span>
+            <input id="amountItems" name="amountItems" type="text" value="1" size="3">
+            <span id="plus">&plus;</span>
+          </form>
+          <div class="addItem" id="addItem"><p>В КОРЗИНУ</p></div>
+          <div class="favorites" id="favorites">&hearts;</div>
+          <!--<div id="checkout" class="checkout"><p>ОФОРМИТЬ ЗАКАЗ</p></div>-->
+          <!--<div id="cart_content" class="cart-content"></div>-->
+        </div>
+        <div class="description-item">
+          <p>Серьги "kindness" коллекции "Woman line" - необычной формы с плавными изгибами</p>
+          <p>Размер:  2,5 см на 1,3 см (в самом широком месте).<br>Серебро 925 пробы</p>
+        </div> 
+      </div>
+  </div>
+  <div id="cartOverlay" class="cartOverlay"></div>
+   <footer class="footer">
+    <div class="buy">
+      <p><a href="">Личный кабинет</a></p>
+      <p><a href="">Доставка и оплата</a></p>
+      <p><a href="">Возврат и замена</a></p>
+    </div> 
+    <div class="info">
+      <p><a href="">О нас</a></p>
+      <p><a href="">Блог</a></p>
+      <p><a href="">Отзывы</a></p>
+      <p><a href="">Правовая информация</a></p>
+    </div>
+    <div class="contacts"><p><a href="">+7 (916) 555-55-55</a></p></div>
+  </footer>
+</body>
+</html>
